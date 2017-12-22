@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XING ZHI</title>
+  <link href="./styles/styles.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_180,z_1/v1513428142/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_32,z_1/v1513428142/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_16,z_1/v1513428142/favicon.png">
+</head>
+
+<body>
+
+  <div class="body">
+    <div class="index-button-section">
+      <a href="https://github.com/limxingzhi" target="_blank"><span class="index-github-icon">GitHub</span></a>
+      <a href="https://www.linkedin.com/in/limxingzhi" target="_blank"><span class="index-linkedin-icon">LinkedIn</span></a>
+    </div>
+
+    <div class="index-main-content">
+
+      <div class="index-cover">
+        <h1 class="index-title" id="index-heading">Loading, please wait</h1>
+        <p class="index-writeup-text" id="index-para">
+        </p>
+      </div>
+      <div class="index-img-container"><img id="index-myface" class="index-myface" src=""></div>
+
+    </div>
+  </div>
+
+  <div class="loader-bg">
+    <div class="sk-double-bounce">
+      <div class="sk-child sk-double-bounce1"></div>
+      <div class="sk-child sk-double-bounce2"></div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyAJjWI_pr-0KMJqmFS-_hY-pJlbs5W6Xuo",
+  authDomain: "ghpage-75eff.firebaseapp.com",
+  databaseURL: "https://ghpage-75eff.firebaseio.com",
+  projectId: "ghpage-75eff",
+  storageBucket: "ghpage-75eff.appspot.com",
+  messagingSenderId: "513186524244"
+};
+firebase.initializeApp(config);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script src="./bundle.js"></script>
+
+</html>
