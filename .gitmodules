@@ -1,0 +1,3 @@
+[submodule "libbar"]
+	path = name
+	url = https://github.com/limxingzhi/vue-name-generator.git
