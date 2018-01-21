@@ -1,3 +1,6 @@
-[submodule "libbar"]
+[submodule "name"]
 	path = name
 	url = https://github.com/limxingzhi/vue-name-generator.git
+[submodule "ghpage-src"]
+	path = src
+	url = https://github.com/limxingzhi/HTML-Boiler.git

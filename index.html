@@ -1,62 +1,42 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>XING ZHI</title>
-  <link href="./styles/styles.css" rel="stylesheet">
+    <title>XINGZHI</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_180,z_1/v1513428142/favicon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_32,z_1/v1513428142/favicon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/dhzcaogan/image/upload/c_scale,o_100,q_auto,w_16,z_1/v1513428142/favicon.png">
-</head>
+    <!-- Bootstrap core CSS -->
+    <link href="./styles.css" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-  <div class="body">
-    <div class="index-button-section">
-      <a href="https://goo.gl/gdwNDx" target="_blank"><span class="index-github-icon">GitHub</span></a>
-      <a href="https://goo.gl/s9EtV8" target="_blank"><span class="index-linkedin-icon">LinkedIn</span></a>
-    </div>
-
-    <div class="index-main-content">
-
-      <div class="index-cover">
-        <h1 class="index-title" id="index-heading">Loading, please wait</h1>
-        <p class="index-writeup-text" id="index-para">
-        </p>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light main-container intro-container">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal" id="index-heading"></h1>
+        <p class="lead font-weight-normal" id="index-para"></p>
+        <a class="btn btn-lg btn-outline-light" target="_blank" href="https://goo.gl/gdwNDx"><span class="index-github-icon">GitHub</span></a>
+        <a class="btn btn-lg btn-outline-light" target="_blank" href="https://goo.gl/s9EtV8"><span class="index-linkedin-icon">LinkedIn</span></a>
       </div>
-      <div class="index-img-container"><img id="index-myface" class="index-myface" src=""></div>
-
     </div>
-  </div>
 
-  <div class="loader-bg">
-    <div class="sk-double-bounce">
-      <div class="sk-child sk-double-bounce1"></div>
-      <div class="sk-child sk-double-bounce2"></div>
-    </div>
-  </div>
-
-</body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
-<script>
-// Initialize Firebase
-var config = {
-  apiKey: "AIzaSyAJjWI_pr-0KMJqmFS-_hY-pJlbs5W6Xuo",
-  authDomain: "ghpage-75eff.firebaseapp.com",
-  databaseURL: "https://ghpage-75eff.firebaseio.com",
-  projectId: "ghpage-75eff",
-  storageBucket: "ghpage-75eff.appspot.com",
-  messagingSenderId: "513186524244"
-};
-firebase.initializeApp(config);
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
-<script src="./bundle.js"></script>
-
-</html>
+    <div class=" d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 main-container">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">DEMO : Random Name Generator</h2>
+          <p class="lead">This is a random name generator for your RPG character made with Vue.js and Bootstrap 4.</p>
+          <a class="btn btn-lg btn-outline-light" href="/name">Name Generator</a>
+        </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script> 
+  <script src="./bundle.js"></script> 
+</html> 
