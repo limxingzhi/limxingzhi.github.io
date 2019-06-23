@@ -1,68 +1,31 @@
-
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>XINGZHI</title>
+<head>
+  <meta charset="utf-8">
+  <title>XINGZHI</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      display: block;
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      top: 50%;
+      position: fixed;
+    }
+  </style>
+</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./styles.css" rel="stylesheet">
-  </head>
+<body>
+  <h1>Redirecting you to <a href="https://xingzhi.dev">xingzhi.dev</a></h1>
+</body>
 
-  <body>
+<script>
+  console.log("redirecting in 1...");
+  setTimeout(function () {
+    window.location.replace("https://xingzhi.dev");
+  }, 1000);
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light main-container intro-container">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal" id="index-heading"></h1>
-        <p class="lead font-weight-normal" id="index-para"></p>
-        <a class="btn btn-lg btn-outline-light" target="_blank" href="https://goo.gl/gdwNDx"><span class="index-github-icon">GitHub</span></a>
-        <a class="btn btn-lg btn-outline-light" target="_blank" href="https://goo.gl/s9EtV8"><span class="index-linkedin-icon">LinkedIn</span></a>
-      </div>
-    </div>
+</script>
 
-    <div class=" d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 main-container">
-
-      <!-- Resume -->
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden resume-container">
-        <div class="my-3 py-3">
-          <h2 class="display-5">My Skills</h2>
-          <div class="lead resume-skills-para">HTML5/DOM RENDERING<br />ES6 (Javascript)<br />GIT</li><br />WEBCOMPONENTS</div>
-          <a class="btn btn-lg btn-outline-light" target="_blank" href="https://goo.gl/jxjgLw">My Resume</a>
-        </div>
-      </div>
-
-      <!-- Name generator demo -->
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden namegenerator-container">
-        <div class="my-3 py-3">
-          <h2 class="display-5">DEMO : Random Name Generator</h2>
-          <p class="lead">This is a random name generator for your RPG character made with Vue.js and Bootstrap 4.</p>
-          <a class="btn btn-lg btn-outline-light" href="/name">Name Generator</a>
-        </div>
-      </div>
-
-      <!-- Throttle and Debounce demo -->
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden throttledebounce-container">
-        <div class="my-3 py-3">
-          <h2 class="display-5">DEMO : Throttle and Debounce in ES6</h2>
-          <p class="lead">This is a simple demo showing the difference in throttle and debounce</p>
-          <a class="btn btn-lg btn-outline-light" href="https://codepen.io/limxz/pen/JLVZjj/">Codepen</a>
-        </div>
-      </div>
-
-    </div>
-
-    <footer class=" d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <span id="footer-quote" class="footer-quote">Technology is magic</span>
-      <span id="footer-quoteauthor" class="footer-quoteauthor"></span>
-      <span class="footer-watermark">limxingzhi.github.io</span>
-    </footer>
-  </body>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"></script> 
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script> 
-  <script src="./bundle.js"></script> 
-</html> 
+</html>
