@@ -1,0 +1,6 @@
+[submodule "pomodoro"]
+	path = pomodoro
+	url = https://github.com/limxingzhi/pomodoro-timer.git
+[submodule "vue-name-gen"]
+	path = vue-name-gen
+	url = https://github.com/limxingzhi/vue-name-generator.git
