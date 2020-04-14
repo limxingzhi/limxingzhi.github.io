@@ -4,3 +4,6 @@
 [submodule "vue-name-gen"]
 	path = vue-name-gen
 	url = https://github.com/limxingzhi/vue-name-generator.git
+[submodule "sb-text"]
+	path = sb-text
+	url = https://github.com/limxingzhi/sb-text.git
