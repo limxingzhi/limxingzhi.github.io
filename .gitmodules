@@ -7,3 +7,6 @@
 [submodule "sb-text"]
 	path = sb-text
 	url = https://github.com/limxingzhi/sb-text.git
+[submodule "markdown"]
+	path = markdown
+	url = https://github.com/limxingzhi/markdown-viewer.git
