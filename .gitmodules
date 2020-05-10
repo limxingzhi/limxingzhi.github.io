@@ -10,6 +10,3 @@
 [submodule "markdown"]
 	path = markdown
 	url = https://github.com/limxingzhi/markdown-viewer.git
-[submodule "new-tab"]
-	path = new-tab
-	url = https://github.com/limxingzhi/new-tab.git
