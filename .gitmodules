@@ -10,3 +10,6 @@
 [submodule "markdown"]
 	path = markdown
 	url = https://github.com/limxingzhi/markdown-viewer.git
+[submodule "multi-video"]
+	path = multi-video
+	url = https://github.com/limxingzhi/multi-video-watcher.git
